@@ -1,0 +1,30 @@
+		<style type="text/css">
+
+/*
+** Imagem de fundo
+*/
+
+			#Backgroud-image
+			{
+				background-image: url('../1 - Imagens/PitchBlack.png');
+				background-repeat: repeat;
+			}
+
+/*
+** Borda do Cabeçalho
+*/			
+			#HeaderBorder
+			{
+			border: solid;
+			border-color: purple green #088A08 #6A0888;
+			}
+
+/*
+** Cor do Texto
+*/
+			.textcolor
+			{
+				color: white;
+			}
+
+		</style>
