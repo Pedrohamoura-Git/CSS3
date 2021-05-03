@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula 44 - Elementos block, inline & inline-block</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="Aula 44 - Style.css">
+
+	</head>
+
+	<body>
+
+<!--	Cabeçalho	-->
+
+		<div>
+
+			<h2 id="HeaderBorder">Aula 44 - Elementos block, inline & inline-block</h2>
+			
+			<h4>
+				Nesta aula aprendi a utilizar o modificador <em>display</em> para alterar o comportamento dos contêiners dentro da página.<br>
+			</h4>
+
+		</div>
+		<hr>
+
+<!--	Exemplo 1	-->
+
+		<div>
+
+			<h4>
+				O tipo block ocupa toda uma linha da tela.
+			</h4>
+
+			<p>
+				.border-format1<br>
+				{<br>
+					<br>
+					border-style: inset;<br>
+					border-color: red;<br>
+					display: block;<br>
+					margin: 10px;<br>
+					<br>
+					/*<br>
+					display: inline;<br>
+					display: inline-block;<br>
+					*/<br>
+					<br>
+				}<br>
+			</p>
+
+			<h4>Exemplo:</h4>
+
+			<p class="border-format1">
+				Pedro Henrique
+			</p>
+
+			<p class="border-format1">
+				Alves Moura.
+			</p>
+			
+		
+		</div><br>
+		<hr>
+
+<!--	Exemplo 2	-->
+
+		<div>
+
+			<h4>
+				O tipo inline não ocupa toda uma linha da tela, permitindo que vários elementos inblock sejam organizados um ao lado do outro.
+			</h4>
+
+			<p>
+				.border-format<br>
+				{<br>
+					<br>
+					border-style: inset;<br>
+					border-color: red;<br>
+					display: inline;<br>
+					margin: 10px;<br>
+					<br>
+					/*<br>
+					display: block;<br>
+					display: inline-block;<br>
+					*/<br>
+					<br>
+				}<br>
+			</p>
+
+			<h4>Exemplo:</h4>
+
+			<p class="border-format2">
+				Pedro Henrique
+			</p>
+
+			<p class="border-format2">
+				Alves Moura.
+			</p>
+
+		</div>
+		<hr>
+
+<!--	Exemplo 3	-->
+
+		<div>
+
+			<h4>
+				O inline-block prioriza organizar os contêiners um ao lado do outro (inline) enquanto houver espaço na página. Do contrário, ele salta uma linha (block) e organiza lado a lado novamente (inline).
+			</h4>
+
+			<p>
+				.border-format<br>
+				{<br>
+					<br>
+					border-style: inset;<br>
+					border-color: red;<br>
+					display: inline-block;<br>
+					margin: 10px;<br>
+					<br>
+					/*<br>
+					display: block;<br>
+					display: inline;<br>
+					*/<br>
+					<br>
+				}<br>
+			</p>
+
+			<h4>Exemplo:</h4>
+
+			<p class="border-format3">
+				Lorem
+			</p>
+
+			<p class="border-format3">
+				Lorem ipsum dolor sit amet
+			</p>
+
+			<p class="border-format3">
+				consectetur adipiscing elit. Ut nec ipsum pharetra
+			</p>
+
+			<p class="border-format3">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac.
+			</p>
+
+			<p class="border-format3">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac, venenatis augue. Duis fringilla lacus tellus, nec tempor odio efficitur non. In dictum pharetra lectus vitae convallis. Duis molestie, risus sed auctor tempor, massa odio volutpat turpis, sit amet iaculis augue sem id sapien.
+			</p>
+
+		</div>
+
+	</body>
+</html>

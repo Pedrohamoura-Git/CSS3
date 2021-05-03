@@ -11,14 +11,13 @@
 /*
 ** H4
 */
-
 	h4
 	{
 		font-weight: bold;
 	}
 
 /*
-** Borda do Cabeçalho
+** ID - Borda do Cabeçalho
 */			
 	#HeaderBorder
 	{
@@ -28,8 +27,11 @@
 		text-align: center;
 	}
 
+
+
+
 /*
-** Formato das tabelas
+** Class - Formato das tabelas
 */
 	.table-format
 	{

@@ -1,0 +1,72 @@
+/*
+** Body
+*/
+	body
+	{
+		background-image: url('../1 - Imagens/Backgrounds/PitchBlack.png');
+		background-repeat: repeat;
+		color: white;
+	}
+
+/*
+** H4
+*/
+	h4
+	{
+		font-weight: bold;
+	}
+
+/*
+** ID - Borda do Cabeçalho
+*/			
+	#HeaderBorder
+	{
+		border: solid;
+		border-color: purple green #088A08 #6A0888;
+		padding: 10px;
+		text-align: center;
+	}
+
+
+/*
+** Class - Formato das bordas
+*/
+	.border-format1
+	{
+		border-style: inset;
+		border-color: red;
+		display: block;
+		margin: 10px;
+
+		/*
+		display: inline;
+		display: inline-block;
+		*/
+	}
+
+	.border-format2
+	{
+		border-style: inset;
+		border-color: red;
+		display: inline;
+		margin: 10px;
+
+		/*
+		display: block;
+		display: inline-block;
+		*/
+	}
+
+	.border-format3
+	{
+		border-style: inset;
+		border-color: red;
+		display: inline-block;
+		margin: 10px;
+
+		/*
+		display: block;
+		display: inline;
+		*/
+	}
+
