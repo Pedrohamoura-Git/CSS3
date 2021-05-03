@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula 40 - Modelo de caixa</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="Aula 40 - Style.css">
+
+	</head>
+
+	<body id="Backgroud-image" class="textcolor">
+
+<!--	Cabeçalho	-->
+
+		<div>
+
+			<h2 id="HeaderBorder" class="textcolor">Aula 40 - Modelo de caixa</h2>
+			
+			<p>
+				Nesta aula aprendi a utilizar espaçamentos dentro das caixas, através do <em>padding</em> e <em>margin</em>.<br>
+			</p>
+
+		</div>
+		<hr>
+
+<!--	Exemplo 1	-->
+
+		<div>
+			<p>
+				<h4>Tabela (um tipo de caixa) padrão.</h4>
+			</p>
+
+			<table border="1">
+				
+				<tr>
+					
+					<td>
+						Resultado:
+					</td>
+
+					<td>
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					
+					<td>
+						Links de referência:
+					</td>
+
+					<td>
+						<a href=""></a>
+					</td>
+		   
+				</tr>
+
+			</table>
+
+		</div><br>
+		<hr>
+
+<!--	Exemplo 2	-->
+
+		<div>
+
+			<h4>
+				Padding modifica os espaçamentos internos de uma caixa.<br>
+				Este elemento pode receber até 4 parâmentros, representando os 4 espaçamentos internos - começando pelo topo e continuando em sentido horário.
+			</h4>
+
+			<p>
+				Ex:<br>
+				<br>
+			</p>
+
+			<p>
+				.tableformat<br>
+				{<br>
+					border: 1px solid red;<br>
+					padding: 7px 14px 21px 42px;<br>
+					<br>
+					/*<br>
+					**padding-top: 7px;<br>
+					**padding-right: 14px;<br>
+					**padding-bottom: 21px;<br>
+					**padding-left: 42px;<br>
+					*/<br>
+					<br>
+				}<br>
+			</p>
+
+			<table border="1" class="table-padding">
+				
+				<tr>
+					
+					<td>
+						Resultado:
+					</td>
+
+					<td>
+						<em>
+							Esta tabela.
+						</em>
+					</td>
+
+				</tr>
+
+				<tr>
+					
+					<td>
+						Links de referência:
+					</td>
+
+					<td>
+						
+					</td>
+		   
+				</tr>
+
+			</table>
+		
+		</div><br>
+		<hr>
+
+<!--	Exemplo 3	-->
+
+		<div>
+
+			<h4>
+				Margin altera o espaçamento exterior da caixa.
+			</h4>
+
+			<p>
+				.tablemargin<br>
+				{<br>
+					border: 1px solid blue;<br>
+					margin: 7px 14px 21px 42px;<br>
+					<br>
+					/*<br>
+					**margin-top: 7px;<br>
+					**margin-right: 14px;<br>
+					**margin-bottom: 21px;<br>
+					**margin-left: 42px;<br>
+					*/<br>
+					<br>
+				}<br>
+			</p>
+
+			<table border="1" class="table-margin">
+				
+				<tr>
+					
+					<td>
+						Resultado:
+					</td>
+
+					<td>
+						Esta tabela.
+					</td>
+
+				</tr>
+
+				<tr>
+					
+					<td>
+						Links de referência:
+					</td>
+
+					<td>
+						<a href=""></a>
+					</td>
+		   
+				</tr>
+
+			</table>
+
+		</div>
+		<hr>
+
+	</body>
+</html>

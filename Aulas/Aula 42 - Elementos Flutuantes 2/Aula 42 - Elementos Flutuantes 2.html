@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula 43 - Elementos flutuantes na prática</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="Aula 43 - Style.css">
+
+
+	</head>
+
+	<body id="Backgroud-image" class="textcolor">
+
+<!--	Cabeçalho	-->
+
+		<div>
+
+			<h2 id="HeaderBorder" class="textcolor">Aula 43 - Elementos flutuantes na prática</h2>
+			
+			<h4>
+				Nesta aula aprendi a formatar as caixas usando o <em>clear</em> para evitar que os elementos dentro do fluxo flutuante interfiram em outras tags.<br>
+			</h4>
+
+		</div>
+		<hr>
+
+<!--	Exemplo 1	-->
+
+		<div>
+			
+		</div>
+		<hr><br>
+
+<!--	Exemplo 2	-->
+
+		<div>
+			<h4>Exemplo <em>com</em> o clear:</h4>
+
+			<p>
+				.clear-ex<br>
+				{<br>
+					clear: both;<br>
+					<br>
+
+
+					/*<br>
+					clear: left;<br>
+					clear: right;<br>
+					clear: none;<br>
+					*/<br>
+				}<br>
+			</p>
+
+		</div>
+
+		<div class="float-exemp1">
+			<p> 
+				Alis Grave Nil.
+			</p>
+		</div>
+
+		<div class="float-exemp1">
+			<p> 
+				Memento Mori.
+			</p>
+		</div>
+
+		<div class="clear-ex">
+
+			<p>
+				Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+
+
+			</p>
+
+		<div>
+		<hr><br>
+
+<!--	Exemplo 3	-->
+
+		<div>
+			
+			<h4>Exemplo <em>com</em> o clear:</h4>
+
+			<p>
+				Neste caso, as caixas internas (verde) estão devidamente inseridas dentro do contêiner exterior (vermelho). 
+			</p><br>
+
+		</div>
+
+
+		<div id="Principal">
+
+			<div class="float-exemp3">
+				conteúdo 1		
+			</div>
+
+			<div class="float-exemp3">
+				conteúdo 2		
+			</div>
+
+			<div class="float-exemp3">
+				conteúdo 3		
+			</div>
+
+			<div class="clear-ex">
+				
+			</div>
+
+		</div>
+		<hr><br>
+
+<!--	Exemplo 4	-->
+
+		<div>
+			
+			<h4>Exemplo <em>sem</em> o clear:</h4>
+
+			<p>
+				Neste caso, o contêiner exterior (vermelho) não está devidamente preenchido pelas caixas internas (verde) porque o fluxo de elementos flutuantes não foi limpo (clear).
+			</p><br>
+
+		</div>
+
+		<div id="Principal">
+
+			<div class="float-exemp3">
+				
+				<p>
+					Alis Grave Nil.
+				</p>
+
+			</div>
+
+			<div class="float-exemp3">
+				
+				<p>
+					Memento Mori.
+				</p>
+
+			</div>
+
+		</div>
+
+	</body>
+</html>

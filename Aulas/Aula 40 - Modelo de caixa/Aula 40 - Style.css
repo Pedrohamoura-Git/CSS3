@@ -1,0 +1,53 @@
+/*
+** Imagem de fundo
+*/
+
+			#Backgroud-image
+			{
+				background-image: url('../1 - Imagens/Backgrounds/PitchBlack.png');
+				background-repeat: repeat;
+			}
+
+/*
+** Borda do Cabeçalho
+*/			
+			#HeaderBorder
+			{
+			border: solid;
+			border-color: purple green #088A08 #6A0888;
+			}
+
+
+			.table-margin
+			{
+				border: 1px solid blue;
+				margin: 7px 14px 21px 42px;
+
+				/*
+				**margin-top: 7px;
+				**margin-right: 14px;
+				**margin-bottom: 21px;
+				**margin-left: 42px;
+				*/
+			}
+
+
+			.table-padding
+			{
+				border: 1px solid red;
+				padding: 7px 14px 21px 42px;
+				/*
+				**padding-top: 7px;
+				**padding-right: 14px;
+				**padding-bottom: 21px;
+				**padding-left: 42px;
+				*/
+			}
+
+/*
+** Cor do Texto
+*/
+			.textcolor
+			{
+				color: white;
+			}

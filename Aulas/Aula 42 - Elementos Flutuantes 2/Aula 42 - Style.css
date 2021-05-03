@@ -1,0 +1,93 @@
+/*
+** Imagem de fundo
+*/
+
+	#Backgroud-image
+	{
+		background-image: url('../1 - Imagens/Backgrounds/PitchBlack.png');
+		background-repeat: repeat;
+	}
+
+/*
+** Borda do Cabeçalho
+*/			
+	#HeaderBorder
+	{
+		border: solid;
+		border-color: purple green #088A08 #6A0888;
+		margin-bottom: 30px;
+		padding: 10px;
+		text-align: center;
+	}
+
+	#Principal
+	{
+		border: 5px solid red;
+	}
+
+/*
+** Elementos flutuantes
+*/
+	.float-exemp1
+	{
+		background-color: red;
+		border-style: inset;
+		float: left;
+		margin: 10px;
+		padding: 21px;
+		text-align: center;
+		width: 180px;
+	}
+
+	.float-exemp2
+	{
+		background-color: blue;
+		border-style: inset;
+		float: left;
+		margin: 10px 10px 10px 130px;
+		padding: 21px;
+		text-align: center;
+		width: 180px;
+	}
+
+	.float-exemp3
+	{
+		background-color: green;
+		border-style: inset;
+		float: left;
+		margin: 10px;
+		text-align: center;
+		width: 200px;
+		height: 200px;
+	}
+
+/*
+** Formato das tabelas
+*/
+
+	.table-format
+	{
+		border-style: inset;
+	}
+
+/*
+** Limpando o fluxo de elementos flutuantes (clear)
+*/
+	.clear-ex
+	{
+		clear: both;
+
+		/*
+		clear: left;
+		clear: right;
+		clear: none;
+		*/
+	}
+
+/*
+** Cor do Texto
+*/
+	.textcolor
+	{
+		color: white;
+	}
