@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula 47 - Sobrepondo elementos</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="Aula 47 - Style.css">
+	</head>
+
+	<body>
+
+<!--	Cabeçalho	-->
+
+		<div>
+
+			<h2 id="HeaderBorder">Aula 47 - Sobrepondo elementos</h2>
+			
+			<h4>
+				Nesta aula aprendi a sobrepor elementos usando <em class="red">z-index</em>. Este modificador permite numerar, em ordem de prioriadade crescente, quais elementos devem aparecer primeiro na tela.
+			</h4>
+
+		</div>
+		<hr>
+
+<!--	Exemplo 1	-->
+
+		<div>
+			
+			<h4>
+				Neste caso, a caixa 2 têm a maior prioridade. Seguida da caixa 1 e, por fim, a caixa 3.
+			</h4>
+
+			<p>
+				.caixa1<br>
+				{<br>
+					background-color: red;<br>
+					border: solid white;<br>
+					height: 131px;<br>
+					width: 210px;<br>
+				<br>
+					position: absolute;<br>
+					top: 210px;<br>
+					right: 500px;<br>
+					z-index: 1;<br>
+				<br>
+					text-align: center;<br>
+					padding-top: 100px;<br>
+					color: white;<br>
+				}<br>
+				<br><br>
+
+				.caixa2<br>
+				{<br>
+					background-color: green;<br>
+					border: solid white;<br>
+					height: 131px;<br>
+					width: 210px;<br>
+				<br>
+					position: absolute;<br>
+					top: 380px;<br>
+					right: 618px;<br>
+					z-index: 2;<br>
+				<br>
+					text-align: center;<br>
+					padding-top: 100px;<br>
+					color: white;<br>
+				}<br>
+				<br><br>
+
+				.caixa3<br>
+				{<br>
+					background-color: blue;<br>
+					border: solid white;<br>
+					height: 131px;<br>
+					width: 210px;<br>
+				<br>
+					position: absolute;<br>
+					top: 380px;<br>
+					right: 400px;<br>
+					z-index: 0;<br>
+				<br>
+					text-align: center;<br>
+					padding-top: 100px;<br>
+					color: white;<br>
+				}<br>
+				<br><br>
+			</p>
+
+			<div class="clear"></div>
+
+		</div>
+
+		<div>
+			<div class="caixa1">
+			
+				Conteúdo 1
+
+			</div>
+
+			<div class="caixa2">
+				
+				Conteúdo 2
+
+			</div>
+
+			<div class="caixa3">
+				
+				Conteúdo 3
+
+			</div>
+		</div>
+
+	</body>
+</html>

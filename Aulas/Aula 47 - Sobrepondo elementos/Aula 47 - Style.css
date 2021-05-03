@@ -1,0 +1,115 @@
+/*
+** Body
+*/
+	body
+	{
+		background: black;
+		color: white;
+	}
+
+/*
+** H4
+*/
+	h4
+	{
+		font-weight: bold;
+		text-align: center;
+	}
+
+/*
+** ID - Borda do Cabeçalho
+*/
+	#HeaderBorder
+	{
+		border: solid;
+		border-color: purple green #088A08 #6A0888;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.display-inline
+	{
+		display: inline;
+		width: 500px;
+		border: 1px solid red;
+	}
+/*
+** Class - clear
+*/
+	.clear
+	{
+		clear: both;
+	}
+
+/*
+** Class - Formato das bordas
+*/
+	.border-format
+	{
+		border-style: inset;
+		display: block;
+		margin: 10px;
+	}
+
+/*
+** Class - Formato das caixas
+*/
+	.caixa1
+	{
+		background-color: red;
+		border: solid white;
+		height: 131px;
+		width: 210px;
+
+		position: absolute;
+		top: 210px;
+		right: 500px;
+		z-index: 1;
+
+		text-align: center;
+		padding-top: 100px;
+		color: white;
+	}
+
+	.caixa2
+	{
+		background-color: green;
+		border: solid white;
+		height: 131px;
+		width: 210px;
+
+		position: absolute;
+		top: 380px;
+		right: 618px;
+		z-index: 2;
+
+		text-align: center;
+		padding-top: 100px;
+		color: white;
+	}
+
+
+	.caixa3
+	{
+		background-color: blue;
+		border: solid white;
+		height: 131px;
+		width: 210px;
+
+		position: absolute;
+		top: 380px;
+		right: 400px;
+		z-index: 0;
+
+		text-align: center;
+		padding-top: 100px;
+		color: white;
+	}
+
+/*
+** Class - red
+*/
+	.red
+	{
+		color: red;
+	}
