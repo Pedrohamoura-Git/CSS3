@@ -3,8 +3,7 @@
 */
 	body
 	{
-		background-image: url('../1 - Imagens/Backgrounds/PitchBlack.png');
-		background-repeat: repeat;
+		background: black;
 		color: white;
 	}
 
@@ -14,11 +13,12 @@
 	h4
 	{
 		font-weight: bold;
+		text-align: center;
 	}
 
 /*
 ** ID - Borda do Cabeçalho
-*/			
+*/
 	#HeaderBorder
 	{
 		border: solid;
@@ -27,13 +27,34 @@
 		text-align: center;
 	}
 
-
-
+	.display-inline
+	{
+		display: inline;
+		width: 500px;
+		border: 1px solid red;
+	}
+/*
+** Class - clear
+*/
+	.clear
+	{
+		clear: both;
+	}
 
 /*
-** Class - Formato das tabelas
+** Class - Formato das bordas
 */
-	.table-format
+	.border-format
 	{
 		border-style: inset;
+		display: block;
+		margin: 10px;
+	}
+
+/*
+** Class - red
+*/
+	.red
+	{
+		color: red;
 	}

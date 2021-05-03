@@ -1,0 +1,79 @@
+/*
+** Body
+*/
+	body
+	{
+		background-image: url('../1 - Imagens/Backgrounds/PitchBlack.png');
+		background-repeat: repeat;
+		color: white;
+	}
+
+/*
+** H4
+*/
+	h4
+	{
+		font-weight: bold;
+		text-align: center;
+	}
+
+/*
+** P
+*/
+	p
+	{
+		width: 300px;
+	}
+
+/*
+** ID - Borda do Cabeçalho
+*/
+	#HeaderBorder
+	{
+		border: solid;
+		border-color: purple green #088A08 #6A0888;
+		padding: 10px;
+		text-align: center;
+	}
+
+/*
+** Class - Contêiner
+*/
+	.conteiner-format
+	{
+		background: #FFF;
+		border: solid red;
+		margin: 10px auto;
+		width: 800px;
+	}
+
+/*
+** Class - Posicionamento dos contêiners
+*/
+	.position-static
+	{
+		border: inset;
+		margin: 10px;
+		position: static;
+	}
+
+	.position-relative
+	{
+		border: inset;
+		margin: 10px;
+		position: relative;
+		top: 5px;
+		left: 21px;
+
+	}
+
+/*
+** Class - Formato das bordas
+*/
+	.border-format
+	{
+		border-style: inset;
+		display: block;
+		margin: 10px;
+	}
+

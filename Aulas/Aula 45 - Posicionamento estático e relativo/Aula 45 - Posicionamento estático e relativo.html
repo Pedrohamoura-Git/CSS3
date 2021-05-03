@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula 45 - Posicionamento estático e relativo</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="Aula 45 - Style.css">
+
+	</head>
+
+	<body>
+
+<!--	Cabeçalho	-->
+
+		<div>
+
+			<h2 id="HeaderBorder">Aula 45 - Posicionamento estático e relativo</h2>
+			
+			<h4>
+				Nesta aula aprendi a utlilizar os modificadores <em>static</em> (padrão) e <em>relative</em> para definir o posicionamento de um ou mais contêiners dentro da página.
+			</h4>
+
+		</div>
+		<hr>
+
+<!--	Exemplo 1	-->
+
+		<div>
+			<h4>
+				<em>Static</em> mantêm o posicionamento padrão do contêiner da página.
+			</h4>
+
+			<p>
+				.position-format<br>
+				{<br>
+				<br>
+					position: static;<br>
+					<br>
+				/*<br>
+					position: relative;<br>
+				*/<br>
+				<br>
+				}<br>
+				
+			</p><br>
+			<br>
+
+			<p class="position-static">
+				P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac, venenatis augue. Duis fringilla lacus tellus, nec tempor odio efficitur non. In dictum pharetra lectus vitae convallis. Duis molestie, risus sed auctor tempor, massa odio volutpat turpis, sit amet iaculis augue sem id sapien.
+			</p>
+
+			<p class="position-static">
+				P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac, venenatis augue. Duis fringilla lacus tellus, nec tempor odio efficitur non. In dictum pharetra lectus vitae convallis. Duis molestie, risus sed auctor tempor, massa odio volutpat turpis, sit amet iaculis augue sem id sapien.
+			</p>
+
+			<p class="position-static">
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac, venenatis augue. Duis fringilla lacus tellus, nec tempor odio efficitur non. In dictum pharetra lectus vitae convallis. Duis molestie, risus sed auctor tempor, massa odio volutpat turpis, sit amet iaculis augue sem id sapien.
+			</p>
+			
+			<div class="clear"></div>
+
+		</div><br>
+		<hr>
+
+<!--	Exemplo 2	-->
+
+		<div>
+			<h4>
+				<em>relative</em> altera o posicionamento do contêiner de acordo com a posição relativa inicial.
+			</h4>
+
+			<p>
+				.position-relative<br>
+				{<br>
+					border: inset;<br>
+					margin: 10px;<br>
+					position: relative;<br>
+					top: 5px;<br>
+					left: 21px;<br>
+					<br>
+				}<br>
+				<br>
+			</p><br>
+			<br>
+
+			<p class="border-format">
+				P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac, venenatis augue. Duis fringilla lacus tellus, nec tempor odio efficitur non. In dictum pharetra lectus vitae convallis. Duis molestie, risus sed auctor tempor, massa odio volutpat turpis, sit amet iaculis augue sem id sapien.
+			</p>
+
+			<p class="position-relative">
+				P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac, venenatis augue. Duis fringilla lacus tellus, nec tempor odio efficitur non. In dictum pharetra lectus vitae convallis. Duis molestie, risus sed auctor tempor, massa odio volutpat turpis, sit amet iaculis augue sem id sapien.
+			</p>
+
+			<p class="border-format">
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac, venenatis augue. Duis fringilla lacus tellus, nec tempor odio efficitur non. In dictum pharetra lectus vitae convallis. Duis molestie, risus sed auctor tempor, massa odio volutpat turpis, sit amet iaculis augue sem id sapien.
+			</p>
+		
+		</div><br>
+		<hr>
+
+<!--	Exemplo 3	-->
+
+		<div>
+			<p>
+				Alis grave nil.
+			</p>
+
+			<table class="position-">
+				
+				<tr>
+					
+					<td>
+						Resultado:
+					</td>
+
+					<td>
+						
+					</td>
+
+				</tr>
+
+				<tr>
+					
+					<td>
+						Links de referência:
+					</td>
+
+					<td>
+						<a href=""></a>
+					</td>
+		   
+				</tr>
+
+			</table>
+
+		</div>
+
+	</body>
+</html>

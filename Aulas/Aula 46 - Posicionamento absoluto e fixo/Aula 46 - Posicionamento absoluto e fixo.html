@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula 45 - Posicionamento estático e relativo</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="Aula 46 - Style.css">
+
+	</head>
+
+	<body>
+
+<!--	Cabeçalho	-->
+
+		<div>
+
+			<h2 id="HeaderBorder">Aula 45 - Posicionamento estático e relativo</h2>
+			
+			<h4>
+				Nesta aula aprendi a utlilizar os modificadores <em>absolute</em> (padrão) e <em>fixed</em> para definir o posicionamento de um ou mais contêiners dentro da página.
+			</h4>
+
+		</div>
+		<hr>
+
+<!--	Exemplo 1	-->
+
+		<div class="border-format">
+			<h4>
+				<em>absolute</em> destaca o contêiner do fluxo padrão da página para uma camada superior. Diferente do <strong>static e relative</strong>, os valores atribuidos a <em>top, right, bottom e/ou left</em> modificarão a poisição do contêiner de forma relativa ao contêiner exterior, desde que este não seja um contêiner estático. Caso contrário, a posição do contêiner interno será relativo à página.<br>
+				O contêiner <em>absolute</em> também acompanha a rolágem da página.
+			</h4>
+
+			<p>
+				.position-absolute<br>
+				{<br>
+				<br>
+					background: #f2f2f2;<br>
+					border: solid red;<br>
+					color: black;<br>
+					padding: 5px;<br>
+					<br>
+					position: absolute;<br>
+					bottom: 21px;<br>
+					right: 21px;<br>
+				<br>
+				}<br>
+				
+			</p><br>
+			<br>
+
+			<div>
+				
+				<p class="border-format">
+					P1<br>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac, venenatis augue. Duis fringilla lacus tellus, nec tempor odio efficitur non. In dictum pharetra lectus vitae convallis. Duis molestie, risus sed auctor tempor, massa odio volutpat turpis, sit amet iaculis augue sem id sapien.
+				</p>
+
+				<p class="position-absolute">
+					P2<br> 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac, venenatis augue. Duis fringilla lacus tellus, nec tempor odio efficitur non. In dictum pharetra lectus vitae convallis. Duis molestie, risus sed auctor tempor, massa odio volutpat turpis, sit amet iaculis augue sem id sapien.
+				</p>
+
+				<p class="border-format">
+					P3<br> 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac, venenatis augue. Duis fringilla lacus tellus, nec tempor odio efficitur non. In dictum pharetra lectus vitae convallis. Duis molestie, risus sed auctor tempor, massa odio volutpat turpis, sit amet iaculis augue sem id sapien.
+				</p>
+
+			</div>
+
+			<div class="clear"></div>
+
+		</div><br>
+
+<!--	Exemplo 2	-->
+
+		
+		<div class="border-format">
+			<h4>
+				<em>fixed</em> destaca o contêiner do fluxo padrão da página para uma camada superior. Ao contrário dos outros tipos de posicionamento, os valores atribuídos a <em>top, right, bottom e left</em> modificarão a posição do contêiner em relação á página.<br>
+				Os contêiners <em>fixed</em> não acompanham a rolágem da página.
+			</h4>
+
+			<p>
+				.position-absolute<br>
+				{<br>
+				<br>
+					background: #f2f2f2;<br>
+					border: solid red;<br>
+					color: black;<br>
+					padding: 5px;<br>
+					<br>
+					position: absolute;<br>
+					bottom: 21px;<br>
+					right: 21px;<br>
+				<br>
+				}<br>
+				
+			</p><br>
+			<br>
+
+			<div>
+				
+				<p class="border-format">
+					P4<br> 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac, venenatis augue. Duis fringilla lacus tellus, nec tempor odio efficitur non. In dictum pharetra lectus vitae convallis. Duis molestie, risus sed auctor tempor, massa odio volutpat turpis, sit amet iaculis augue sem id sapien.
+				</p>
+
+				<p class="position-fixed">
+					P5<br>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac, venenatis augue. Duis fringilla lacus tellus, nec tempor odio efficitur non. In dictum pharetra lectus vitae convallis. Duis molestie, risus sed auctor tempor, massa odio volutpat turpis, sit amet iaculis augue sem id sapien.
+				</p>
+
+				<p class="border-format">
+					P6<br>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec ipsum pharetra, euismod lorem ac, venenatis augue. Duis fringilla lacus tellus, nec tempor odio efficitur non. In dictum pharetra lectus vitae convallis. Duis molestie, risus sed auctor tempor, massa odio volutpat turpis, sit amet iaculis augue sem id sapien.
+				</p>
+
+			</div>
+
+			<div class="clear"></div>
+
+		</div><br>
+
+	</body>
+</html>
