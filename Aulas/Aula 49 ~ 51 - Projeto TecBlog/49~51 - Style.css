@@ -1,0 +1,281 @@
+
+/*
+** ------------- Formatações Gerais
+*/
+
+	/*
+	** * 
+	*/
+
+		*
+		{
+			margin: 0;
+			padding-left: 0;
+		}
+
+	/*
+	** a
+	*/
+		a
+		{
+			text-decoration: none;
+		}
+
+
+	/*
+	** a:link
+	*/
+		a:link
+		{
+			color: orange;
+		}
+
+	/*
+	** a:visited
+	*/
+		a:visited
+		{
+			color: orange;
+		}
+			
+	/*	
+	** a:hover
+	*/
+		a:hover
+		{
+			color: orange;
+			text-decoration: underline;
+		}
+
+	/*
+	** body
+	*/
+		body
+		{
+			background: #e6e6e6;
+			font: 1em "Trebuchet MS", Helvetica, sans-serif;
+		}
+
+
+	/*
+	** h1
+	*/
+		h1
+		{
+			font-size: 2.5em;
+			color: #4e4e4e;
+		}
+
+	/*
+	** h2
+	*/
+		h2
+		{
+			color: #f2b600;
+		}
+
+
+
+
+/*
+** ------------- Layout do cabeçalho
+*/
+	/*
+	** ID - Título do cabeçalho
+	*/
+		#Header-Title
+		{
+			background: #f2b600;
+			padding: 25px;
+			padding-bottom: 15px;
+			text-align: center;
+		}
+
+	/*
+	** ID - Menu do cabeçalho
+	*/
+		#Header-Menu
+		{
+			margin-top: 10px;
+			padding: 10px;
+		}
+
+		/*
+		** a:link - Menu do cabeçalho
+		*/
+			#Header-Menu a:link
+			{
+				color: white;
+				
+				padding: 8px 12px;
+			}
+		/*
+		** a:visited - Menu do cabeçalho
+		*/
+			#Header-Menu a:visited
+			{
+				color: white;
+			}
+
+		/*
+		** a:hover - Menu do cabeçalho
+		*/
+			#Header-Menu a:hover
+			{
+				background: white;
+				color: #f2b600;
+				text-decoration: none;
+			}
+
+
+
+	/*
+	** Class - White
+	*/
+		.white
+		{
+			color: white;
+		}
+
+
+
+
+/*
+** ------------- Conteúdo Principal
+*/
+	/*
+	** ID - Formato da caixa de conteúdo exterior
+	*/
+		#Outside_Content-Box	
+		{
+			width: 980px;
+			margin: 0px auto;
+		}
+
+	/*
+	** ID - Rodapé da Página
+	*/
+		#Bottom_page
+		{
+			background: #CCC;
+			margin: 35px 30px 15px 30px;
+			padding: 15px;
+
+			text-align: center;
+		}
+
+
+
+
+	/*
+	** Class - Formato das caixas interiores de conteúdo
+	*/
+		.inside_content-box	
+		{
+			width: 620px;
+			position: relative;
+			top: 15px;
+			left: 30px;
+
+			background: white;
+			margin-bottom: 20px;
+			padding: 20px;
+		}
+
+	/*
+	** Class - Data da postagem
+	*/
+		.content_data-format
+		{
+			font-size: 0.8em;
+			margin-bottom: 20px;
+		}
+
+	/*
+	** Class - Formato do texto dentro de cada caixa de conteúdo
+	*/
+		.content_text-format
+		{
+			width: 620px;
+		}
+
+
+
+
+
+/*
+** ------------- Conteúdo Lateral
+*/
+	/*
+	** Class - Formato da caixa exterior de conteúdo lateral
+	*/
+		.outside_lateral_content-box
+		{
+			height: 350px;
+			width: 220px;
+
+			position: absolute;
+			top: 150px;
+			right: 230px;
+
+			padding: 10px;
+
+
+		}
+
+	/*
+	** Class - Formato das caixas interiores de conteúdo lateral
+	*/
+		.inside_lateral_content-box
+		{
+			height: 140px;
+			width: 220px;
+
+			position: relative;
+			top: -11px;
+			left: -11px;
+
+			background: white;
+			padding: 10px;
+			margin-bottom: 20px;
+
+
+		}
+
+	/*
+	** Class - Formato do título dentro das caixas laterais
+	*/
+		.lateral_content-title
+		{
+			width: 210px;
+
+			background: #CCC;
+			color: 
+			font-size: 1.2em;
+			padding: 5px;
+		}
+
+	/*
+	** Class - Formato do texto dentro das caixas laterais
+	*/
+		.lateral_content-text
+		{
+			font-size: 0.8em;
+			padding: 5px;
+			border-style: 1px dotted;
+		}
+	
+	/*
+	** Class - Formato dos links dentro da 2º caixa lateral
+	*/
+
+		.lateral_content-link a:link, .lateral_content-link a:visited
+		{
+			color: orange;
+			font-size: 1em;
+		}
+		#lateral_content-link a:hover
+		{
+			color: orange;
+			font-size: 1em;
+		}
