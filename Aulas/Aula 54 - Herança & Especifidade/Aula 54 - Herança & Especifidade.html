@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aula 54 - Herança & Especifidade</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="../0 - Modelo CSS3/Modelo CSS3 - Style.css">
+
+	</head>
+
+	<body>
+
+<!--	Cabeçalho	-->
+
+		<div>
+
+			<h2 id="HeaderBorder">Aula 54 - Herança & Especifidade</h2>
+			
+			<h4>
+				Nesta aula aprendi os conceitos por trás de <em class="red">herança e especifidade.</em>
+			</h4>
+
+		</div>
+		<hr>
+
+<!--	Exemplo 1	-->
+
+		<div>
+
+			<h4>
+				<em class="red">Herança:</em> quando as estilizações realizadas em uma tag afeta os seus decendentes.
+			</h4><br>
+
+            <div>
+                <p class="border-format">
+
+                    Exemplo:<br>
+
+                </p><br>
+
+                < div style="color: aquamarine;"><br>
+                <br>
+                    < div><br>
+                    <br>
+                        < p><br>
+                            Teste 1<br>
+                        < /p><br>
+                    <br>
+                        < /div><br>
+                    <br>
+
+                    < p><br>
+                        Teste 2<br>
+                    < /p><br>
+                    <br>
+                < /div><br>
+
+            </div>
+
+            <div>
+                <p class="border-format">
+                    Resultado:
+                </p>
+    
+                    <div style="color: aquamarine;">
+                        <div>
+                            <p>
+                                Teste 1
+                            </p>
+                        </div>
+                        <p>
+                            Teste 2
+                        </p>
+                    </div>
+            </div>
+		</div><br>
+		<hr><br>
+
+<!--	Exemplo 2	-->
+
+		<div>
+
+			<h4>
+                <em class="red">Especifidade:</em> Se um seletor for mais específico que outro, a prioridade de aplicação será do mais específico.
+            </h4><br>
+
+            <p>
+                <strong>Obs:</strong> Quando houver dois ou mais seletores iguais, o último sempre tem preferência de aplicação. <br>
+                 É possível quebrar esta cadeia de preferência, usando o comando <em class="red">!important</em> no final do nome do seletor. Isto define sua preferência de aplicação acima dos outros seletores iguais.
+			</p>
+
+            <p>
+                    
+            </p>
+
+		</div>
+	</body>
+</html>

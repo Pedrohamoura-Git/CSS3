@@ -1,0 +1,65 @@
+/*
+** Formatações Gerais
+*/
+
+/*
+** body
+*/
+	body
+	{
+		background: black;
+		color: white;
+	}
+
+/*
+** a
+*/
+	a
+	{
+		color: orange;
+		text-decoration: none;
+	}
+/*
+** h4
+*/
+	h4
+	{
+		font-weight: bold;
+		text-align: center;
+	}
+
+/*
+** ID - Borda do Cabeçalho
+*/
+	#HeaderBorder
+	{
+		border: solid;
+		border-color: purple green #088A08 #6A0888;
+		padding: 10px;
+		text-align: center;
+	}
+/*
+** Class - clear
+*/
+	.clear
+	{
+		clear: both;
+	}
+
+/*
+** Class - Formato das bordas
+*/
+	.border-format
+	{
+		border-style: inset;
+		display: block;
+		margin: 10px;
+	}
+
+/*
+** Class - red
+*/
+	.red
+	{
+		color: red;
+	}
