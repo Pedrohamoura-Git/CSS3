@@ -8,12 +8,36 @@ body
 }
 
 /*
-** a:link
+** a
 */
 a
 {
 	color: orange;
 	text-decoration: none;
+}
+
+/*
+** Lista de Navegação Lateral
+*/ 
+ul
+{
+	list-style-type: none;
+}
+
+ul a
+{
+	background: #f7b600 url(Imagens/menu.png) left;
+	color: black;
+	display: block;
+	line-height: 40px;
+	text-indent: 40px;
+	height: 40px;
+	width: 200px;
+}
+
+ul a:hover
+{
+	background: #f99200 url(Imagens/menu.png) right;
 }
 
 /*
@@ -36,6 +60,37 @@ h4
 	text-align: center;
 }
 
+/*
+** ID - Estilização dos Links Selecionados
+*/
+#Selected_links, .home a, .quemsomos a, .noticias a, .contatos a
+{
+	background: #f99200 url(Imagens/menu.png) right;
+}
+
+/*
+** ID - Formato do Contêiner da Barra de Navegação Lateral
+*/
+#Lateral_Box-format
+{
+	height: 300px;
+	width: 300px;
+
+	position: absolute;
+	top: 165px;
+	left: 360px;
+}
+
+/*
+** Class - Formato das Caixas de Conteúdo
+*/
+.content_box-format
+{
+	border: inset white;
+	padding: 10px;
+	height: 650px;
+	width: 350px;
+}
 
 /*
 ** Class - red
