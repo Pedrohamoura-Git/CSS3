@@ -1,0 +1,109 @@
+/*
+** body
+*/
+body
+{
+	background: black;
+	color: white;
+    font-size: 16px;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+/*
+** Lista de Navegação Lateral
+*/ 
+ul
+{
+    background: #159cb0 url(Imagens/fundo-horizontal.png) 
+    repeat-x top left;
+    float: left;
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 490px;
+}
+
+ul li
+{
+	float: left;
+}
+
+ul a
+{
+    background: url(Imagens/divisor.png) repeat-y;
+    display: block;
+    line-height: 2em;
+    padding: 0 2em;
+}
+
+
+ul a:hover
+{
+	background: #10defd;
+    color: black;
+}
+
+/*
+** h4
+*/
+h4
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+/*
+** ID - Borda do Cabeçalho
+*/
+#HeaderBorder
+{
+	border: solid;
+	border-color: purple green #088A08 #6A0888;
+	padding: 10px;
+	text-align: center;
+}
+
+/*
+** ID - Estilização dos Links Selecionados
+*/
+#Selected_links, .home a, .quemsomos a, .noticias a, .contatos a
+{
+	background: #10defd;
+    color: black;
+}
+
+/*
+** ID - Formato do Contêiner da Barra de Navegação Lateral
+*/
+#Horizontal_Box-format
+{
+    margin: 10px auto;
+	height: 50px;
+    width: 720px;
+
+}
+
+/*
+** Class - Formato das Caixas de Conteúdo
+*/
+.content_box-format
+    {
+        border: inset white;
+        padding: 10px;
+        margin: 121px auto;
+        height: 650px;
+        width: 350px;
+    }
+
+/*
+** Class - red
+*/
+.red
+{
+	color: red;
+}
