@@ -1,0 +1,70 @@
+/*
+** body
+*/
+	body
+	{
+		background: black;
+		color: white;
+	}
+
+/*
+** a
+*/
+	a
+	{
+		color: orange;
+		text-decoration: none;
+	}
+
+/*
+** Lista de Navegação Lateral
+*/ 
+    ul
+    {
+        list-style-type: none;
+    }
+
+    ul a
+    {
+        background: #f7b600 url(Imagens/menu.png) left;
+        color: black;
+        display: block;
+        line-height: 40px;
+        text-indent: 40px;
+        height: 40px;
+        width: 200px;
+    }
+
+    ul a:hover
+    {
+        background: #f99200 url(Imagens/menu.png) right;
+    }
+
+/*
+** h4
+*/
+	h4
+	{
+		font-weight: bold;
+		text-align: center;
+	}
+
+/*
+** ID - Borda do Cabeçalho
+*/
+	#HeaderBorder
+	{
+		border: solid;
+		border-color: purple green #088A08 #6A0888;
+		padding: 10px;
+		text-align: center;
+	}
+
+
+/*
+** Class - red
+*/
+	.red
+	{
+		color: red;
+	}

@@ -1,97 +1,46 @@
 /*
 ** body
 */
-	body
-	{
-		background: black;
-		color: white;
-	}
+body
+{
+	background: black;
+	color: white;
+}
 
 /*
 ** a:link
 */
-	a:link
-	{
-		color: orange;
-		text-decoration: none;
-	}
-
-/*
-** a:visited
-*/
-	a:visited
-	{
-		color: grey;
-		text-decoration: none;
-	}
-
-/*
-** a:hover
-*/
-	a:hover
-	{
-		color: lightblue;
-		text-decoration: underline;
-	}
-
-/*
-** a:active
-*/
-	a:active
-	{
-		background: grey;
-		color: blue;
-		text-decoration: none;
-	}
+a
+{
+	color: orange;
+	text-decoration: none;
+}
 
 /*
 ** h4
 */
-	h4
-	{
-		font-weight: bold;
-		text-align: center;
-	}
+h4
+{
+	font-weight: bold;
+	text-align: center;
+}
 
 /*
 ** ID - Borda do Cabeçalho
 */
-	#HeaderBorder
-	{
-		border: solid;
-		border-color: purple green #088A08 #6A0888;
-		padding: 10px;
-		text-align: center;
-	}
+#HeaderBorder
+{
+	border: solid;
+	border-color: purple green #088A08 #6A0888;
+	padding: 10px;
+	text-align: center;
+}
 
-	.display-inline
-	{
-		display: inline;
-		width: 500px;
-		border: 1px solid red;
-	}
-/*
-** Class - clear
-*/
-	.clear
-	{
-		clear: both;
-	}
-
-/*
-** Class - Formato das bordas
-*/
-	.border-format
-	{
-		border-style: inset;
-		display: block;
-		margin: 10px;
-	}
 
 /*
 ** Class - red
 */
-	.red
-	{
-		color: red;
-	}
+.red
+{
+	color: red;
+}
