@@ -1,0 +1,59 @@
+body
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+table
+{
+    width: 600px;
+    margin: 10px;
+    border-collapse: collapse;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    /* border-collapse: separate; */
+}
+
+th, td
+{
+    padding: 7px;
+    text-align: left;
+}
+
+
+th
+{
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+tr.alternado
+{
+    background-color: #c7b9b9;
+}
+
+tr:hover
+{
+    background: rgb(66, 201, 232);
+}
+
+#conteiner
+{
+
+}
+
+.border
+{
+    border: 1px solid blue;
+}
+
+.numero
+{
+    text-align: right;
+}
