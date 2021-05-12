@@ -1,0 +1,34 @@
+body
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#conteiner
+{ 
+    width: 400px;
+    background: #dedede url(imagens/fundo-arredondamento.png) repeat-y;
+}
+
+#conteiner h2
+{
+    margin: 0px;
+    border: 1px solid red;
+    padding: 10px 20px 0 20px;
+    background: #dedede url(imagens/topo2.png) no-repeat left top;
+}
+
+#conteiner p
+{
+    border: 1px solid red;
+    padding: 20px;
+}
+
+#conteiner .ultimo
+{
+    margin: 0px;
+    border: 1px solid red;
+    background: url(imagens/baixo2.png) no-repeat left bottom;
+    padding-bottom: 20px;
+}
