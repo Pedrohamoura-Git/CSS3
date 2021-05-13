@@ -1,0 +1,530 @@
+/*
+** Formatando as tags diretamente
+*/
+    *
+    {
+        box-sizing: border-box;
+        font-family: "Trebuchet MS", Helvetica;
+        margin: 0;
+        padding: 0;
+    }
+
+    body
+    {
+        background: #fff url(../imagens/fundo.png) repeat-x top left;
+    }
+
+    ul
+    {
+        list-style-type: none;
+    }
+
+    a
+    {
+        text-decoration: none;
+    }
+
+
+
+/*
+** Formatando o contêiner principal
+*/
+    #conteiner-principal
+    {
+        margin: 0 auto;
+        width: 750px;
+
+        /* border: 1px solid black; */
+    }
+
+
+/*
+** Formatando o cabeçalho
+*/
+    #cabecalho
+    {
+        background: url(../imagens/detalhe-topo.png) no-repeat top right;
+        height: 250px;
+
+        /* border: 1px solid red; */
+    }
+
+    #logo
+    {
+        padding: 25px 0 0 0;
+    }
+
+    /*
+    ** Formatando o cabeçalho: barra de navegação
+    */
+        #navegacao-topo ul
+        {
+            background: #b10333;
+            border-radius: 1em;
+            float: left;
+            margin-top: 30px;
+            width: 635px;
+        }
+
+        #navegacao-topo ul a
+        {
+            background: #b10333 url(../imagens/divisor.png) no-repeat left center;
+            border-radius: 1em;
+            color: #fff;
+            float: left;
+            font-size: 0.9em;
+            line-height: 2.1em;
+            padding: 0.5em 1.45em;
+        
+        
+            /* border: 1px solid black; */
+        }
+
+        #navegacao-topo ul a:hover
+        {
+            color: black;
+        }
+
+        #navegacao-topo ul .divisor a
+        {
+            background-image: none;
+        }
+
+        /*
+        ** Formatando o cabeçalho - barra de navegação: página atual
+        */
+            .home ul a#home, .brasil ul a#brasil, .internacional a#internacional, .economia ul a#economia, .saude ul a#saude, .ciencia ul a#ciencia, .fotos ul a#fotos
+            {
+                border-radius: 1em;
+                background: #de003e;
+                color: #000;
+            }
+
+
+
+
+/*
+** Formatando às colunas
+*/
+    #uma-coluna h3, #duas-colunas h3, #tres-colunas h3
+    {
+        background: #294c71;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 5px;
+        padding: 5px;
+    }
+
+    #uma-coluna h4, #duas-colunas h4, #tres-colunas h4
+    {
+        background-color: #b10333;
+        color: #fff;
+        display: inline-block;
+        font-size: 0.8em;
+        padding: 2px;
+        text-transform: uppercase;
+    }
+
+    #uma-coluna h5, #duas-colunas h5, #tres-colunas h5
+    {
+        color: #294c71;
+        display: block;
+        float: left;
+        text-transform: uppercase;
+
+        /* border: 1px solid #294c71; */
+    }
+
+
+    /*
+    ** Formatando a coluna 1 - lateral
+    */
+        #duas-colunas #coluna-1, #tres-colunas #coluna-1
+        {
+            float: left;
+            width: 180px;
+
+            /* border: 1px solid green; */
+        }
+
+        /*
+        ** Formatando a coluna 1 - lateral: entrevistas
+        */
+            #duas-colunas #entrevistas, #tres-colunas #entrevistas
+            {
+                background: url(../imagens/fundo-caixa.png);
+                float: left;
+                margin-right: 10px;
+                padding: 5px;
+                width: 180px;
+            }
+
+            #duas-colunas #entrevistas li, #tres-colunas #entrevistas li
+            {
+                background: #fff;
+                float: left;
+                /* padding: 5px; */
+
+            }
+
+            #duas-colunas #entrevistas ul a, #tres-colunas #entrevistas ul a 
+            {
+                /* background: tomato; */
+                border-bottom: 1px solid #f3f3f3;
+                color: black;
+                /* display: block; */
+                font-size: 0.9em;
+                float: left;
+                line-height: 25px;
+                margin: auto;
+                padding: 5px;
+                width: 170px;
+
+                /* border: 1px solid blue; */
+            }
+
+            #duas-colunas #entrevistas ul a:hover, #tres-colunas #entrevistas ul a:hover
+            {
+                background: #f3f3f3 url(../imagens/marcador.png) no-repeat left center;
+                color: #a1a1a1;
+                padding-left: 20px;
+            }
+
+
+        /*
+        ** Formatando a coluna 1 - lateral: news
+        */
+            #duas-colunas #news, #tres-colunas #news
+            {
+                background: url(../imagens/fundo-caixa.png);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                padding: 5px;
+                width: 180px;
+
+                /* border: 1px solid brown; */
+            }
+
+            #duas-colunas form, #tres-colunas form
+            {
+                background-color: white;
+                padding: 5px;
+            }
+
+            #duas-colunas label, #tres-colunas label
+            {
+                cursor: pointer;
+                /* margin-bottom: 5px; */
+
+                /* border: 1px solid brown; */
+            }
+
+            #duas-colunas label input, #tres-colunas label input
+            {
+                border: 2px inset grey;
+                line-height: 2.1em;
+                width: 100%;
+            }
+
+            #duas-colunas aside input, #tres-colunas aside input
+            {
+                background-color: #b10333;
+                border: 1px solid #870529;
+                color: white;
+                cursor: pointer;
+                margin: 5px 0 0 40px;
+                padding: 5px;
+            }
+
+            #duas-colunas aside input:hover, #tres-colunas aside input:hover
+            {
+                color: black;
+            }
+
+        
+
+    /*
+    ** Formatando a coluna 2
+    */
+        #uma-coluna #coluna-2
+        {
+            float: left;
+            width: 750px;
+                        
+            /* border: 1px solid salmon; */
+        }
+        #duas-colunas #coluna-2
+        {
+            float: left;
+            margin-left: 10px;
+            width: 550px;
+            
+            /* border: 1px solid salmon; */
+        }
+
+        #tres-colunas #coluna-2
+        {
+            float: left;
+            margin-left: 10px;
+            /* padding: 5px; */
+            width: 270px;
+
+            /* border: 1px solid salmon; */
+        }
+
+        /*
+        ** Formatando a coluna 2: destaque
+        */
+            #uma-coluna #destaque, #duas-colunas #destaque, #tres-colunas #destaque
+            {
+                background: url(../imagens/fundo-caixa.png);
+                padding: 5px;
+            }
+
+            #uma-coluna #destaque div, #duas-colunas #destaque div, #tres-colunas #destaque div
+            {
+                background-color: #fff;
+            }
+    
+            #uma-coluna #destaque img, #duas-colunas #destaque img, #tres-colunas #destaque img
+            {
+                border: 3px solid grey;
+                width: 100%;
+            }
+
+            #uma-coluna #destaque a, #duas-colunas #destaque a, #tres-colunas #destaque a 
+            {
+                color: #b10333;
+                text-decoration: underline;
+            }
+
+            #uma-coluna #destaque a:hover, #duas-colunas #destaque a:hover, #tres-colunas #destaque a:hover
+            {
+                color: #de003e;
+            }
+
+
+
+        /*
+        ** Formatando a coluna 2: mundo
+        */
+            #uma-coluna #mundo
+            {
+                background: url(../imagens/fundo-caixa.png);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                padding: 5px;
+                width: 100%;
+
+                /* border: 1px solid brown; */
+            }
+
+            #duas-colunas #mundo
+            {
+                background: url(../imagens/fundo-caixa.png);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                padding: 5px;
+                width: 550px;
+
+                /* border: 1px solid brown; */
+            }
+
+            #tres-colunas #mundo 
+            {
+                background: url(../imagens/fundo-caixa.png);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                padding: 5px;
+                width: 270px;
+
+                /* border: 1px solid brown; */
+            }
+
+            #uma-coluna #mundo div li, #duas-colunas #mundo div li, #tres-colunas #mundo div li
+            {
+                background: #fff;
+                border-bottom: 2px solid #eee;
+                float: left;
+                padding: 5px;
+                width: 100%;
+
+                /* border: 1px solid #294c71; */
+            }
+
+            #uma-coluna #mundo ul a, #duas-colunas #mundo ul a, #tres-colunas #mundo ul a
+            {
+                float: left;
+                width: 100%;
+
+                /* border: 1px solid #294c71; */
+            }
+
+            #uma-coluna #mundo ul a img, #duas-colunas #mundo ul a img, #tres-colunas #mundo ul a img
+            {
+                display: block;
+                float: left;
+                margin-right: 5px;
+                width: 80px;
+
+                /* border: 1px solid #294c71; */
+            }
+
+            #uma-coluna #mundo ul a p, #duas-colunas #mundo ul a p, #tres-colunas #mundo ul a p
+            {
+                color: black;
+                display: block;
+                float: left;
+                font-size: 0.7em;
+                width: 65%;
+
+                /* border: 1px solid #294c71; */
+            }
+
+            #uma-coluna #mundo ul li:hover, #duas-colunas #mundo ul li:hover, #tres-colunas #mundo ul li:hover
+            {
+                background-color: #eee;
+                float: left;
+
+                /* border: 1px solid #294c71; */
+            }
+
+
+    /*
+    ** Formatando a coluna 3
+    */
+        #tres-colunas #coluna-3
+        {
+            float: left;
+            margin-left: 10px;
+            width: 270px;
+
+            /* border: 1px solid purple; */
+        }
+
+
+
+
+        /*
+        ** Formatando a coluna 3: últimas entrevistas
+        */
+            #tres-colunas #ultima-entrevista
+            {
+                background: url(../imagens/fundo-caixa.png);
+                padding: 5px;
+            }
+
+            #tres-colunas #ultima-entrevista h4
+            {
+                background-color: #de003e;
+                color: black;
+            }
+
+            #tres-colunas #ultima-entrevista div
+            {
+                background-color: #fff;
+            }
+
+            #tres-colunas #ultima-entrevista img
+            {
+                border: 3px solid grey;
+                width: 100%;
+            }
+
+            #tres-colunas #ultima-entrevista a
+            {
+                color: #b10333;
+                text-decoration: underline;
+            }
+
+            #tres-colunas #ultima-entrevista a:hover
+            {
+                color: #de003e;
+            }
+
+
+
+
+        /*
+        ** Formatando a coluna 3: notícias recentes
+        */
+            #tres-colunas #noticias-recentes
+            {
+                background: url(../imagens/fundo-caixa.png);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                margin-bottom: 30px;
+                padding: 5px;
+                width: 270px;
+
+                /* border: 1px solid brown; */
+            }
+
+            #tres-colunas #noticias-recentes div li
+            {
+                background: #fff;
+                border-bottom: 2px solid #eee;
+                float: left;
+                padding: 5px;
+            }
+
+            #tres-colunas #noticias-recentes ul a
+            {
+                float: left;
+                width: 100%;
+
+                /* border: 1px solid #294c71; */
+            }
+
+            #tres-colunas #noticias-recentes ul a img
+            {
+                float: left;
+                margin-right: 5px;
+                width: 30%;
+
+                /* border: 1px solid #294c71; */
+
+            }
+
+            #tres-colunas #noticias-recentes ul a p
+            {
+                color: black;
+                float: left;
+                font-size: 0.7em;
+                width: 65%;
+
+                /* border: 1px solid #294c71; */
+            }
+
+            #tres-colunas #noticias-recentes ul li:hover
+            {
+                background-color: #eee;
+                float: left;
+
+                /* border: 1px solid #294c71; */
+            }
+
+
+
+
+
+
+/*
+** Formatando o radapé
+*/
+    #rodape
+    {
+        background-color: #294c71;
+        color: #fff;
+        clear: both;
+        height: 70px;
+        font-size: 1.1em;
+        line-height: 70px;
+        margin-top: 400px;
+        text-align: center;
+    }
