@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body, html
+{
+    font: 16px "Lato", sans-serif;
+    height: 100%;
+    border: 1px solid red;
+}
+
+#conteiner-principal 
+{
+    height: 100%;
+    position: relative;
+}
+
+.conteudo1
+{
+    background: url(../imagens/imagem1.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.conteudo1 h2
+{
+    background: #111;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding: 18px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    text-transform: uppercase;
+}

@@ -1,0 +1,91 @@
+/* Formata geral
+****************************************************************/
+    *
+    {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body
+    {
+        background: url(../imagens/bg.png);
+        font-family: Helvetica, "Trebuchet MS", sans-serif;
+    }
+
+/* Formata o contêiner principal
+****************************************************************/
+    #conteiner-principal
+    {
+        margin: 0 auto;
+        max-width: 1180px;
+        min-width: 740px;
+        padding: 15px;
+
+        /* border: 1px solid red; */
+    }
+
+
+/* Formata o cabeçalho
+****************************************************************/
+    #cabecalho
+    {
+        background: url(../imagens/topo-imagem-principal.png) no-repeat top left;
+        min-height: 250px;
+        position: relative;
+        z-index: 1;
+
+    }
+
+
+
+    /* Formata o cabeçalho: logo
+        ****************************************************************/
+        #logo a
+        {
+            background: url(../imagens/logo.png) no-repeat top left;
+            height: 66px;
+            width: 151px;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            z-index: 3;
+
+
+            /* border: 1px solid green; */
+        }
+
+
+
+    /* Formata o cabeçalho: informações
+    ****************************************************************/
+        #info-topo
+        {
+            background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+            height: 250px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 450px;
+            
+
+        }
+
+    /* Formata o cabeçalho - informações: navegação
+    ****************************************************************/
+        #info-topo #navegacao-info
+        {
+            padding: 15px;
+
+
+            border: 1px solid red;
+        }
+
+
+
+/* Formata o cabeçalho - informações: navegação
+****************************************************************/
+    #rodape
+    {
+        clear: both;
+    }
